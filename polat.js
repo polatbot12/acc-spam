@@ -49,7 +49,7 @@ polat.on("ready", () => {
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano.user.setActivity(STREAMING, {
+    polat.user.setActivity(STREAMING, {
       type: "playing",
       url: "https://www.twitch.tv/faith"
     });
@@ -62,7 +62,7 @@ polat2.on("ready", () => {
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano2.user.setActivity(STREAMING, {
+    polat2.user.setActivity(STREAMING, {
       type: "playing",
       url: "https://www.twitch.tv/faith"
     });
@@ -75,7 +75,7 @@ polat3.on("ready", () => {
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano3.user.setActivity(STREAMING, {
+    polat3.user.setActivity(STREAMING, {
       type: "playing",
       url: "https://www.twitch.tv/faith"
     });
@@ -89,7 +89,7 @@ polat4.on("ready", () => {
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano.user.setActivity(STREAMING, {
+    polat.user.setActivity(STREAMING, {
       type: "playing",
       url: "https://www.twitch.tv/faith"
     });
@@ -102,7 +102,7 @@ polat5.on("ready", () => {
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano2.user.setActivity(STREAMING, {
+    polat2.user.setActivity(STREAMING, {
       type: "playing",
       url: "https://www.twitch.tv/faith"
     });
@@ -115,7 +115,7 @@ polat6.on("ready", () => {
   let statuses = [`polat bot`];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
-    jano3.user.setActivity(STREAMING, {
+    polat3.user.setActivity(STREAMING, {
       type: "playing",
       url: "https://www.twitch.tv/faith"
     });
